@@ -10,7 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Welcome to Zones!")
+            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+            .font(.system(.largeTitle, design: .rounded))
             .padding()
+        Image("Zones")
+            .resizable()
+            .scaledToFit()
     }
 }
 
